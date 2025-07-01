@@ -1,0 +1,24 @@
+service: mm-conduct-interview
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  lambdaHashingVersion: somevalue
+  stage: dev
+  region: us-west-1
+  deploymentBucket: picaggo-api-repository
+  iam:
+    role: arn:aws:iam::somevalue:role/lambda_basic_execution
+  layers:
+    - arn:aws:lambda:us-west-1:somevalue:layer:mm_utilsLayer:1
+    - arn:aws:lambda:us-west-1:somevalue:layer:OpenAILayer:1
+    - arn:aws:lambda:us-west-1:somevalue:layer:AWS-SDK:1
+
+functions:
+  conductInterview:
+    handler: index.handler
+    events:
+     - httpApi:
+         path: /conduct-interview
+         method: post
