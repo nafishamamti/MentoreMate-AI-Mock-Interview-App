@@ -6,6 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0A99C6CD2CA961B2005A1291 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0A99C6CC2CA961B2005A1291 /* FirebaseAuthCombine-Community */; };
+		0A99C6CF2CA961B2005A1291 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 0A99C6CE2CA961B2005A1291 /* FirebaseInstallations */; };
+		0A99C6DC2CA96AA8005A1291 /* SDWebImageWebPCoder in Frameworks */ = {isa = PBXBuildFile; productRef = 0A99C6DB2CA96AA8005A1291 /* SDWebImageWebPCoder */; };
+		0A99C6DF2CA98205005A1291 /* AWSAuthCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0A99C6DE2CA98205005A1291 /* AWSAuthCore */; };
+		0A99C6E12CA98205005A1291 /* AWSCognitoAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0A99C6E02CA98205005A1291 /* AWSCognitoAuth */; };
+		0A99C6E32CA98205005A1291 /* AWSCognitoIdentityProvider in Frameworks */ = {isa = PBXBuildFile; productRef = 0A99C6E22CA98205005A1291 /* AWSCognitoIdentityProvider */; };
+		0A99C6E52CA98205005A1291 /* AWSS3 in Frameworks */ = {isa = PBXBuildFile; productRef = 0A99C6E42CA98205005A1291 /* AWSS3 */; };
+		0A99C6EB2CA9A262005A1291 /* AWSCognitoIdentityProviderASF in Frameworks */ = {isa = PBXBuildFile; productRef = 0A99C6EA2CA9A262005A1291 /* AWSCognitoIdentityProviderASF */; };
+		0A99C6ED2CA9A2F3005A1291 /* AWSCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0A99C6EC2CA9A2F3005A1291 /* AWSCore */; };
+		0AB2570E2CA95417007D8907 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 0AB2570D2CA95417007D8907 /* GoogleSignIn */; };
+		0AB257102CA95417007D8907 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0AB2570F2CA95417007D8907 /* GoogleSignInSwift */; };
+		0AC012822CA8D90600613FD2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0AC012812CA8D90600613FD2 /* FirebaseAnalytics */; };
+		0AC012842CA8D90600613FD2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0AC012832CA8D90600613FD2 /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0A5D4E102CA8D1EB006C5528 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,6 +50,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				Support/Info.plist,
 			);
 			target = 0A5D4DF82CA8D1E9006C5528 /* MentorMate */;
 		};
@@ -65,6 +82,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A99C6E52CA98205005A1291 /* AWSS3 in Frameworks */,
+				0A99C6DC2CA96AA8005A1291 /* SDWebImageWebPCoder in Frameworks */,
+				0A99C6DF2CA98205005A1291 /* AWSAuthCore in Frameworks */,
+				0AC012822CA8D90600613FD2 /* FirebaseAnalytics in Frameworks */,
+				0A99C6E32CA98205005A1291 /* AWSCognitoIdentityProvider in Frameworks */,
+				0AC012842CA8D90600613FD2 /* FirebaseAuth in Frameworks */,
+				0A99C6EB2CA9A262005A1291 /* AWSCognitoIdentityProviderASF in Frameworks */,
+				0AB2570E2CA95417007D8907 /* GoogleSignIn in Frameworks */,
+				0A99C6CF2CA961B2005A1291 /* FirebaseInstallations in Frameworks */,
+				0A99C6ED2CA9A2F3005A1291 /* AWSCore in Frameworks */,
+				0AB257102CA95417007D8907 /* GoogleSignInSwift in Frameworks */,
+				0A99C6E12CA98205005A1291 /* AWSCognitoAuth in Frameworks */,
+				0A99C6CD2CA961B2005A1291 /* FirebaseAuthCombine-Community in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +155,19 @@
 			);
 			name = MentorMate;
 			packageProductDependencies = (
+				0AC012812CA8D90600613FD2 /* FirebaseAnalytics */,
+				0AC012832CA8D90600613FD2 /* FirebaseAuth */,
+				0AB2570D2CA95417007D8907 /* GoogleSignIn */,
+				0AB2570F2CA95417007D8907 /* GoogleSignInSwift */,
+				0A99C6CC2CA961B2005A1291 /* FirebaseAuthCombine-Community */,
+				0A99C6CE2CA961B2005A1291 /* FirebaseInstallations */,
+				0A99C6DB2CA96AA8005A1291 /* SDWebImageWebPCoder */,
+				0A99C6DE2CA98205005A1291 /* AWSAuthCore */,
+				0A99C6E02CA98205005A1291 /* AWSCognitoAuth */,
+				0A99C6E22CA98205005A1291 /* AWSCognitoIdentityProvider */,
+				0A99C6E42CA98205005A1291 /* AWSS3 */,
+				0A99C6EA2CA9A262005A1291 /* AWSCognitoIdentityProviderASF */,
+				0A99C6EC2CA9A2F3005A1291 /* AWSCore */,
 			);
 			productName = MentorMate;
 			productReference = 0A5D4DF92CA8D1E9006C5528 /* MentorMate.app */;
@@ -208,6 +251,12 @@
 			);
 			mainGroup = 0A5D4DF02CA8D1E8006C5528;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0AC012802CA8D90600613FD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0AB2570C2CA95417007D8907 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				0A99C6DA2CA96AA8005A1291 /* XCRemoteSwiftPackageReference "SDWebImageWebPCoder" */,
+				0A99C6DD2CA98205005A1291 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0A5D4DFA2CA8D1E9006C5528 /* Products */;
 			projectDirPath = "";
@@ -292,8 +341,10 @@
 				DEVELOPMENT_TEAM = VY629KA3B8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MentorMate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mentor Mate";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Login.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -304,6 +355,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.MentorMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -320,8 +375,10 @@
 				DEVELOPMENT_TEAM = VY629KA3B8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MentorMate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mentor Mate";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Login.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -332,6 +389,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.MentorMate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -469,6 +530,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.MentorMateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,6 +553,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.MentorMateTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,6 +574,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.MentorMateUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,6 +595,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.MentorMateUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -569,6 +646,109 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0A99C6DA2CA96AA8005A1291 /* XCRemoteSwiftPackageReference "SDWebImageWebPCoder" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageWebPCoder.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.14.6;
+			};
+		};
+		0A99C6DD2CA98205005A1291 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/aws-sdk-ios-spm";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.37.2;
+			};
+		};
+		0AB2570C2CA95417007D8907 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		0AC012802CA8D90600613FD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0A99C6CC2CA961B2005A1291 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AC012802CA8D90600613FD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		0A99C6CE2CA961B2005A1291 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AC012802CA8D90600613FD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		0A99C6DB2CA96AA8005A1291 /* SDWebImageWebPCoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A99C6DA2CA96AA8005A1291 /* XCRemoteSwiftPackageReference "SDWebImageWebPCoder" */;
+			productName = SDWebImageWebPCoder;
+		};
+		0A99C6DE2CA98205005A1291 /* AWSAuthCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A99C6DD2CA98205005A1291 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSAuthCore;
+		};
+		0A99C6E02CA98205005A1291 /* AWSCognitoAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A99C6DD2CA98205005A1291 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSCognitoAuth;
+		};
+		0A99C6E22CA98205005A1291 /* AWSCognitoIdentityProvider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A99C6DD2CA98205005A1291 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSCognitoIdentityProvider;
+		};
+		0A99C6E42CA98205005A1291 /* AWSS3 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A99C6DD2CA98205005A1291 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSS3;
+		};
+		0A99C6EA2CA9A262005A1291 /* AWSCognitoIdentityProviderASF */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A99C6DD2CA98205005A1291 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSCognitoIdentityProviderASF;
+		};
+		0A99C6EC2CA9A2F3005A1291 /* AWSCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0A99C6DD2CA98205005A1291 /* XCRemoteSwiftPackageReference "aws-sdk-ios-spm" */;
+			productName = AWSCore;
+		};
+		0AB2570D2CA95417007D8907 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AB2570C2CA95417007D8907 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		0AB2570F2CA95417007D8907 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AB2570C2CA95417007D8907 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		0AC012812CA8D90600613FD2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AC012802CA8D90600613FD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		0AC012832CA8D90600613FD2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0AC012802CA8D90600613FD2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0A5D4DF12CA8D1E8006C5528 /* Project object */;
 }
